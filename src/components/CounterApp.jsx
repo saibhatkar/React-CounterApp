@@ -2,7 +2,11 @@ import React from 'react'
 
 const CounterApp = () => {
   return (
-    <div>CounterApp</div>
+    <>
+    <div className="main">
+        <button>INCREMENT</button>
+    </div>
+    </>
   )
 }
 
