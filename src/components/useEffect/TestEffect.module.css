@@ -1,0 +1,42 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 40%;
+    width: 50%;
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    /* gap: none; */
+    background-color: antiquewhite;
+    height: 45%;
+    width: 100%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.buttons{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    /* border-color: brown; */
+    color: rgb(207, 207, 37);
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    /* display: grid; */
+    /* flex-direction: row; */
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    color: white;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* height: 20%; */
+    /* width: 20%; */
+    height: 100px;
+    width: 200px;
+    
+    background-color: black;
+}
+
+.display{
+    font-size: large;
+    font-weight: bolder;
+    /* height: inherit;
+    width: inherit; */
+    background-color: azure;
+    color: black;
+}
